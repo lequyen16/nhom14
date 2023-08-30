@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+.container h2 {
+    color: #fa5e5e;
+    padding: 10px;
+}
+
+.container img {
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+}
+
+.container .btn_container {
+    padding: 10px;
+}
+
+.btn_container button {
+    width: 80px;
+    height: 30px;
+    font-weight: 600;
+    background-color: #4d89f8;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.btn_container button:hover {
+    opacity: 0.8;
+} 
+
+.container span {
+    font-size: 20px;
+    font-weight: bold;
+}

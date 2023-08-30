@@ -1,0 +1,90 @@
+/* Căn chỉnh các radio và checkbox thẳng hàng với label */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 550px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #89b7f3;
+    border: 1px solid #4d97f7;
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.maSV,
+.tenSV,
+.email {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.maSV input,
+.tenSV input,
+.email input {
+    width: 75%;
+    height: 30px;
+    padding: 0px 10px 0px 10px;
+}
+
+.gioitinh label,
+.sothich label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.gioitinh,
+.sothich {
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.quoctich {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 530px;
+    padding: 10px;
+}
+
+#quoctich,
+.form-control,
+.kc {
+    margin-top: 10px;
+}
+
+
+.btn button {
+    padding: 10px 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.btn button:hover {
+    opacity: 0.7;
+}
